@@ -207,7 +207,7 @@ footer {
     box-sizing: border-box;
     height: auto;
     width: 85%;
-    padding: 20px 40px;
+    padding: 20px 30px;
     justify-content: flex-start;
   }
 
@@ -514,7 +514,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
  
@@ -596,7 +595,6 @@ section {
 
 .elas-container {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
 
@@ -604,14 +602,12 @@ section {
 
 .article-nos {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
 
 /* Página - Noticia1 */
 .noticia1-container {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
 
@@ -623,4 +619,10 @@ section {
 
 .video {
 text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
 }
