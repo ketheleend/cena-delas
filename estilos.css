@@ -514,7 +514,6 @@ section {
   display: flex;
   flex-wrap: wrap;
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
  
@@ -596,7 +595,6 @@ section {
 
 .elas-container {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
 
@@ -604,7 +602,6 @@ section {
 
 .article-nos {
   max-width: 1400px;
-  min-width: 400px;
   margin: auto;
 }
 
