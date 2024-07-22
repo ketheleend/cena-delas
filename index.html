@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cena Delas</title>
+  <link rel="shortcut icon" href="imagens/cenadelas-favicon-64x64.png" type="image/png" sizes="64x64">
+  <link rel="stylesheet" href="js/slider.js">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <header>
+    <nav class="navheader">
+
+      <div>
+        <a href="index.html">
+          <img src="imagens/cena-delas-logo-120.png" alt="Logomarca do site Cena Delas em rosa e branco">
+        </a>
+      </div>
+      <input type="checkbox" id="sidebar-active">
+      <label for="sidebar-active" class="open-sidebar-button">
+        <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#FA152D">
+          <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+        </svg>
+
+      </label>
+      <div class="links-container">
+        <label for="sidebar-active" class="open-sidebar-button">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#FA152D">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg>
+        </label>
+        <!-- <div>
+                <a href="home.html">
+                    <img src="imagens/cena-delas-logo-120.png" alt="Logomarca do site Cena Delas em rosa e branco">
+                </a>
+            </div> -->
+
+        <a class="home-link" href="noticias-principal.html">Notícias</a>
+        <a href="elas.html">Elas</a>
+        <a href="lancamentos-principal.html">Lançamentos</a>
+        <a href="underground-principal.html">Underground</a>
+        <a href="nos.html">Nós</a>
+
+      </div>
+    </nav>
+
+  </header>
+  <!-- slider carrossel -->
+
+  <div class="slider-container">
+
+    <div class="slider-wrapper">
+
+      <div class="slider-item">
+        <a href=" ">
+          <img src="imagens/home/slider/slide-1-duquesa-taurus-vol-2.png"
+            alt="Cantora Duquesa e a capa do seu novo albúm Taurus Vol 2">
+        </a>
+      </div>
+      <div class="slider-item">
+        <a href="underground-1.html">
+          <img src="imagens/home/slider/slide-2-quebrada-performance.png"
+            alt="Foto do projeto Quabrada performance mostrando uma mulher cantando na favela">
+        </a>
+      </div>
+      <div class="slider-item">
+        <a href="">
+          <img src="imagens/home/slider/slide-3-novo-single-ajuliacosta.png"
+            alt="capa do novo single da cantora ajuliacosta chamado 'Você parece com vergonha'">
+        </a>
+      </div>
+    </div>
+
+    <div class="slider-nav">
+
+       
+      <button class="prev" onclick="prevSlide()">
+        <img src="imagens/home/slider/prev.png" alt="">
+      </button>
+    
+
+      <button class="next" onclick="nextSlide()">
+        <img src="imagens/home/slider/next.png" alt="">
+      </button>
+    </div>
+  </div>
+
+<!-- Article - notícias Home -->
+
+<main class="mainhome">
+
+  <article class="articlehome">
+
+    <div class="home-container">
+
+      <div class="caixahome">
+
+        <a class="linkshome" href=""> <img src="imagens/home/noticias/noticia-duquesa-podcast-to-na-trace-pequena.png" alt="Cantora Duquesa usando uma blusa preta no podcast To Na Trace">
+        <h2>Duquesa é o destaque do podcast “Tô na Trace”</h2>
+        <p>Saiba Mais!</p>
+      </a>
+
+      </div>
+
+      <div class="caixahome">
+
+        <a class="linkshome" href="noticia1.html"> <img src="imagens/home/noticias/noticia-expensive-shit-pequena.png" alt="Gemêas Tasha e Tracie em roupas fashion com a escrita 'Expensive Shit' ao lado">
+
+          <h2>Conheça o Expensive Shit</h2>
+          <p>Projeto criado pelas gêmeas Tasha e Tracie!</p>
+        </a>
+
+      </div>
+
+
+      <div class="caixahome">
+
+        <a class="linkshome" href="lancamento1.html"> <img src="imagens/home/noticias/noticia-mcluanna-fracao3-4-pequena.png" alt="Foto da cantora MC Luanna com unhas e cabelos azul com trança e a imagem da capa do ep Fração 3/4 mostrando uma sala de aula.">
+        <h2>OUÇA AGORA</h2>
+        <p>EP Fração 3/4 - O novo EP colaborativo da MC Luanna! </p>
+      </a>
+
+      </div>
+
+      <div class="caixahome">
+
+        <a class="linkshome" href=""> <img src="imagens/home/noticias/noticia-tasha-e-tracie-perifacon-pequena.png" alt="Cantoras Tasha e Tracie no palco e o logo da Perifacon ao lado.">
+
+        <h2>Kenner leva Tasha & Tracie para a Perifacon</h2>
+        <p>Saiba Mais!</p>
+      </a>
+
+      </div>
+
+    </div>
+
+  </article>
+</main>
+
+<!-- Final da página  -->
+<section class="sectionhome-frase">
+
+  <h2>“Eles nos querem como musas, mas nos temem como artistas” </h2>
+  <p>Tasha & Tracie</p>
+
+
+</section>
+
+<div class="container-articlefinal"> 
+<article class="articleelas">
+  <div class="articlediv1">
+    <img src="imagens/home/elas-tasha-e-tracie-pequeno.png" alt="Fotos das gêmeas e cantoras Tasha e Tracie">
+  </div>
+
+  <div class="articlediv2">
+    <h2>Tasha & Tracie</h2>
+    <p>Tasha Okereke e Tracie Okereke cresceram no Jardim Peri, na Zona Norte de São Paulo,
+      atuam na arte, moda,
+      ativismo e música... </p>
+
+    <a href="elas.html">
+      <div class="articlediv3">
+        <p>Continue lendo</p>
+
+      </div>
+    </a>
+  </div>
+</article>
+
+</div>
+
+<footer>
+
+  <div class="conteudofooter">
+      <a class="logomenu" href="index.html">
+          <img src="imagens/cena-delas-logo-120.png" alt="Logomarca do site Cena Delas em rosa e branco">
+      </a>
+      <div>
+          <h1 class="white">MAPA DO SITE</h1>
+          <nav class="menu">
+              <ul>
+                  <li><a href="index.html">Início</a></li>
+                  <li><a href="noticias-principal.html">Notícias</a></li>
+                  <li><a href="elas.html">Elas</a></li>
+                  <li><a href="lancamentos-principal.html">Lançamentos</a></li>
+                  <li><a href="underground-principal.html">Underground</a></li>
+                  <li><a href="nos.html">Nós</a></li>
+              </ul>
+          </nav>
+      </div>
+
+      <div class="white">
+          <h1>REDES SOCIAIS</h1>
+          <a href="">
+          <i class="fa-brands fa-instagram fa-2x" style="color: #f70354;"></i>
+          <a href="">
+          <i class="fa-brands fa-square-facebook fa-2x" style="color: #f70354;"></i></a>
+      </div>
+  </div>
+  <br>
+<br>
+</footer>
+
+</body>
+
+<script src="js/slider.js"></script>
+
+</html>
