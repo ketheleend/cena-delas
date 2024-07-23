@@ -640,8 +640,13 @@ text-align: center;
 
 .main-container {
   width: 100%;
-  max-width: 1400px;
   margin: auto;
   padding: 0;
 }
 
+.conteudo-container {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 0;
+}
